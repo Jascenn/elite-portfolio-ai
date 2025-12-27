@@ -1,0 +1,7 @@
+{
+  "name": "Elite Portfolio AI",
+  "description": "A high-end personal portfolio website featuring a Gemini-powered digital twin for interactive career exploration.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
