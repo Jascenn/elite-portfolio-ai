@@ -17,21 +17,21 @@ const Navigation: React.FC = () => {
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-[#0a0a0c]/80 backdrop-blur-lg border-b border-white/10 py-4' : 'bg-transparent py-6'
-      }`}>
+      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#0a0a0c]/80 backdrop-blur-lg border-b border-white/10 py-4' : 'bg-transparent py-6'
+        }`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold tracking-tighter text-white">
-            PORT<span className="text-blue-500">FOLIO.</span>
+          <a href="#" className="flex items-center gap-3 text-2xl font-bold tracking-tighter text-white group">
+            <img src="/logo.png" alt="Logo" className="w-8 h-8 rounded-lg shadow-lg shadow-blue-500/20 group-hover:scale-110 transition-transform duration-300" />
+            <span>PORT<span className="text-blue-500">FOLIO.</span></span>
           </a>
-          
+
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-400">
             <a href="#about" className="hover:text-white transition-colors">{t.nav.about}</a>
             <a href="#projects" className="hover:text-white transition-colors">{t.nav.projects}</a>
             <a href="#skills" className="hover:text-white transition-colors">{t.nav.skills}</a>
-            
-            <button 
+
+            <button
               onClick={() => setLang(lang === 'en' ? 'zh' : 'en')}
               className="flex items-center space-x-1 glass-card px-3 py-1.5 rounded-lg border border-white/10 text-xs font-bold hover:bg-white/5 transition-all text-white"
             >
@@ -66,7 +66,7 @@ const Navigation: React.FC = () => {
           <a href="#about" onClick={toggleMenu} className="text-slate-400 hover:text-white">{t.nav.about}</a>
           <a href="#projects" onClick={toggleMenu} className="text-slate-400 hover:text-white">{t.nav.projects}</a>
           <a href="#skills" onClick={toggleMenu} className="text-slate-400 hover:text-white">{t.nav.skills}</a>
-          <button 
+          <button
             onClick={() => { setLang(lang === 'en' ? 'zh' : 'en'); toggleMenu(); }}
             className="text-blue-500"
           >
