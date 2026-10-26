@@ -1,0 +1,9 @@
+# Repository ownership map. Production deployment and public assets are review-sensitive.
+*                           @Jascenn
+/App.tsx                    @Jascenn
+/components/                @Jascenn
+/services/                  @Jascenn
+/public/                    @Jascenn
+/.github/workflows/         @Jascenn
+/.env.example               @Jascenn
+/package-lock.json          @Jascenn
