@@ -80,4 +80,9 @@ Every time you push to the `main` branch, the [`.github/workflows/deploy.yml`](.
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source under the [MIT License](LICENSE). Original project code is licensed under MIT; third-party dependencies, upstream projects and external assets remain under their own licenses.
+
+## Contributing and security
+
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
+- Report security issues privately according to [SECURITY.md](SECURITY.md); do not open a public issue.
