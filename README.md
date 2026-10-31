@@ -24,7 +24,7 @@ A futuristic personal portfolio website featuring a "Digital Twin" AI chat power
 
 ## 🏃 Run Locally
 
-**Prerequisites:** Node.js (v18+)
+**Prerequisites:** Node.js 20.19+ or 22.12+
 
 1. **Clone the repository**:
 
