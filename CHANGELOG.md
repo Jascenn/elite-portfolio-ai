@@ -11,6 +11,7 @@ All notable user-facing changes are documented here. The format follows Keep a C
 ### Changed
 
 - Refresh compatible dependency updates and document the Node.js 20.19+/22.12+ requirement.
+- Upgrade Vite to 8.3.5 and use `import.meta.dirname` for the project alias.
 
 ## [Initial release]
 
